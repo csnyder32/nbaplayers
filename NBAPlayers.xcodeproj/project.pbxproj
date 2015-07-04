@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18DBC0C1B3C8BC800CF6776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18DBC0B1B3C8BC800CF6776 /* AppDelegate.swift */; };
+		B18DBC111B3C8BC800CF6776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18DBC0F1B3C8BC800CF6776 /* Main.storyboard */; };
+		B18DBC131B3C8BC800CF6776 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18DBC121B3C8BC800CF6776 /* Images.xcassets */; };
+		B18DBC161B3C8BC800CF6776 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18DBC141B3C8BC800CF6776 /* LaunchScreen.xib */; };
+		B18DBC221B3C8BC800CF6776 /* NBAPlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18DBC211B3C8BC800CF6776 /* NBAPlayersTests.swift */; };
+		B18DBC2C1B3C8C0100CF6776 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18DBC2B1B3C8C0100CF6776 /* PlayersTableViewController.swift */; };
+		B18DBC2E1B3C8C7800CF6776 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18DBC2D1B3C8C7800CF6776 /* AddViewController.swift */; };
+		B18DBC301B3C8D5400CF6776 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18DBC2F1B3C8D5400CF6776 /* Players.swift */; };
+		B18DBC321B3C90D700CF6776 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18DBC311B3C90D700CF6776 /* PlayerDetailViewController.swift */; };
+		B1FB92191B456D54007D3A65 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB92181B456D54007D3A65 /* PlayerTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18DBC1C1B3C8BC800CF6776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18DBBFE1B3C8BC800CF6776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18DBC051B3C8BC800CF6776;
+			remoteInfo = NBAPlayers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18DBC061B3C8BC800CF6776 /* NBAPlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAPlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18DBC0A1B3C8BC800CF6776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18DBC0B1B3C8BC800CF6776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B18DBC101B3C8BC800CF6776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18DBC121B3C8BC800CF6776 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B18DBC151B3C8BC800CF6776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B18DBC1B1B3C8BC800CF6776 /* NBAPlayersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBAPlayersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18DBC201B3C8BC800CF6776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18DBC211B3C8BC800CF6776 /* NBAPlayersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAPlayersTests.swift; sourceTree = "<group>"; };
+		B18DBC2B1B3C8C0100CF6776 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		B18DBC2D1B3C8C7800CF6776 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B18DBC2F1B3C8D5400CF6776 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		B18DBC311B3C90D700CF6776 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
+		B1FB92181B456D54007D3A65 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18DBC031B3C8BC800CF6776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18DBC181B3C8BC800CF6776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18DBBFD1B3C8BC800CF6776 = {
+			isa = PBXGroup;
+			children = (
+				B18DBC081B3C8BC800CF6776 /* NBAPlayers */,
+				B18DBC1E1B3C8BC800CF6776 /* NBAPlayersTests */,
+				B18DBC071B3C8BC800CF6776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18DBC071B3C8BC800CF6776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18DBC061B3C8BC800CF6776 /* NBAPlayers.app */,
+				B18DBC1B1B3C8BC800CF6776 /* NBAPlayersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18DBC081B3C8BC800CF6776 /* NBAPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				B18DBC0B1B3C8BC800CF6776 /* AppDelegate.swift */,
+				B18DBC0F1B3C8BC800CF6776 /* Main.storyboard */,
+				B1FB92181B456D54007D3A65 /* PlayerTableViewCell.swift */,
+				B18DBC311B3C90D700CF6776 /* PlayerDetailViewController.swift */,
+				B18DBC2F1B3C8D5400CF6776 /* Players.swift */,
+				B18DBC2D1B3C8C7800CF6776 /* AddViewController.swift */,
+				B18DBC121B3C8BC800CF6776 /* Images.xcassets */,
+				B18DBC141B3C8BC800CF6776 /* LaunchScreen.xib */,
+				B18DBC091B3C8BC800CF6776 /* Supporting Files */,
+				B18DBC2B1B3C8C0100CF6776 /* PlayersTableViewController.swift */,
+			);
+			path = NBAPlayers;
+			sourceTree = "<group>";
+		};
+		B18DBC091B3C8BC800CF6776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18DBC0A1B3C8BC800CF6776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18DBC1E1B3C8BC800CF6776 /* NBAPlayersTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18DBC211B3C8BC800CF6776 /* NBAPlayersTests.swift */,
+				B18DBC1F1B3C8BC800CF6776 /* Supporting Files */,
+			);
+			path = NBAPlayersTests;
+			sourceTree = "<group>";
+		};
+		B18DBC1F1B3C8BC800CF6776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18DBC201B3C8BC800CF6776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18DBC051B3C8BC800CF6776 /* NBAPlayers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18DBC251B3C8BC800CF6776 /* Build configuration list for PBXNativeTarget "NBAPlayers" */;
+			buildPhases = (
+				B18DBC021B3C8BC800CF6776 /* Sources */,
+				B18DBC031B3C8BC800CF6776 /* Frameworks */,
+				B18DBC041B3C8BC800CF6776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBAPlayers;
+			productName = NBAPlayers;
+			productReference = B18DBC061B3C8BC800CF6776 /* NBAPlayers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18DBC1A1B3C8BC800CF6776 /* NBAPlayersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18DBC281B3C8BC800CF6776 /* Build configuration list for PBXNativeTarget "NBAPlayersTests" */;
+			buildPhases = (
+				B18DBC171B3C8BC800CF6776 /* Sources */,
+				B18DBC181B3C8BC800CF6776 /* Frameworks */,
+				B18DBC191B3C8BC800CF6776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18DBC1D1B3C8BC800CF6776 /* PBXTargetDependency */,
+			);
+			name = NBAPlayersTests;
+			productName = NBAPlayersTests;
+			productReference = B18DBC1B1B3C8BC800CF6776 /* NBAPlayersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18DBBFE1B3C8BC800CF6776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LAKES;
+				TargetAttributes = {
+					B18DBC051B3C8BC800CF6776 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B18DBC1A1B3C8BC800CF6776 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B18DBC051B3C8BC800CF6776;
+					};
+				};
+			};
+			buildConfigurationList = B18DBC011B3C8BC800CF6776 /* Build configuration list for PBXProject "NBAPlayers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18DBBFD1B3C8BC800CF6776;
+			productRefGroup = B18DBC071B3C8BC800CF6776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18DBC051B3C8BC800CF6776 /* NBAPlayers */,
+				B18DBC1A1B3C8BC800CF6776 /* NBAPlayersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18DBC041B3C8BC800CF6776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18DBC111B3C8BC800CF6776 /* Main.storyboard in Resources */,
+				B18DBC161B3C8BC800CF6776 /* LaunchScreen.xib in Resources */,
+				B18DBC131B3C8BC800CF6776 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18DBC191B3C8BC800CF6776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18DBC021B3C8BC800CF6776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FB92191B456D54007D3A65 /* PlayerTableViewCell.swift in Sources */,
+				B18DBC301B3C8D5400CF6776 /* Players.swift in Sources */,
+				B18DBC2C1B3C8C0100CF6776 /* PlayersTableViewController.swift in Sources */,
+				B18DBC0C1B3C8BC800CF6776 /* AppDelegate.swift in Sources */,
+				B18DBC321B3C90D700CF6776 /* PlayerDetailViewController.swift in Sources */,
+				B18DBC2E1B3C8C7800CF6776 /* AddViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18DBC171B3C8BC800CF6776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18DBC221B3C8BC800CF6776 /* NBAPlayersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18DBC1D1B3C8BC800CF6776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18DBC051B3C8BC800CF6776 /* NBAPlayers */;
+			targetProxy = B18DBC1C1B3C8BC800CF6776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18DBC0F1B3C8BC800CF6776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18DBC101B3C8BC800CF6776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18DBC141B3C8BC800CF6776 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18DBC151B3C8BC800CF6776 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18DBC231B3C8BC800CF6776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B18DBC241B3C8BC800CF6776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18DBC261B3C8BC800CF6776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NBAPlayers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B18DBC271B3C8BC800CF6776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NBAPlayers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B18DBC291B3C8BC800CF6776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NBAPlayersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBAPlayers.app/NBAPlayers";
+			};
+			name = Debug;
+		};
+		B18DBC2A1B3C8BC800CF6776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NBAPlayersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBAPlayers.app/NBAPlayers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18DBC011B3C8BC800CF6776 /* Build configuration list for PBXProject "NBAPlayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18DBC231B3C8BC800CF6776 /* Debug */,
+				B18DBC241B3C8BC800CF6776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18DBC251B3C8BC800CF6776 /* Build configuration list for PBXNativeTarget "NBAPlayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18DBC261B3C8BC800CF6776 /* Debug */,
+				B18DBC271B3C8BC800CF6776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18DBC281B3C8BC800CF6776 /* Build configuration list for PBXNativeTarget "NBAPlayersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18DBC291B3C8BC800CF6776 /* Debug */,
+				B18DBC2A1B3C8BC800CF6776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18DBBFE1B3C8BC800CF6776 /* Project object */;
+}
