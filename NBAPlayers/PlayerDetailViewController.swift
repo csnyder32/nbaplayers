@@ -10,10 +10,15 @@ import UIKit
 
 class PlayerDetailViewController: UIViewController {
 
+    //MARK: Properties
+    var activityViewController: UIActivityViewController!
+
+    // MARK: passed values from table view
     var passedValue: String!
     var passedCollege: String!
     var passedImage: UIImage!
 
+    // MARK: IBOutlets
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var playerTextField: UITextField!
     @IBOutlet weak var collegeTextField: UITextField!
@@ -38,9 +43,16 @@ class PlayerDetailViewController: UIViewController {
     }
     
 
+    // MARK: IBActions
     @IBAction func saveButton(sender: AnyObject) {
         
         
+    }
+    @IBAction func shareButton(sender: AnyObject)
+    {
+        activityViewController = UIActivityViewController(activityItems: [playerTextField.text as NSString], applicationActivities: nil)
+        presentViewController(activityViewController, animated: true, completion: nil)
+
     }
 
 
