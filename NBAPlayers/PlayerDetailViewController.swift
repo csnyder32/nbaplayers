@@ -33,7 +33,6 @@ class PlayerDetailViewController: UIViewController {
         playerImageView.image = passedImage
 
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
